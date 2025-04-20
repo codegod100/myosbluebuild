@@ -26,6 +26,7 @@ modules:
       packages:
         - xfce4-eyes-plugin
         - xfce4-docklike-plugin
+        - xfdashboard
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
