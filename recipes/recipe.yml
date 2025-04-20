@@ -22,6 +22,8 @@ modules:
     group-install:
       packages:
         - xfce-desktop
+        - xfce4-eyes-plugin
+        - xfce4-docklike-plugin
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
