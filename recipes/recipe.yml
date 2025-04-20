@@ -22,6 +22,8 @@ modules:
     group-install:
       packages:
         - xfce-desktop
+    install:
+      packages:
         - xfce4-eyes-plugin
         - xfce4-docklike-plugin
 
