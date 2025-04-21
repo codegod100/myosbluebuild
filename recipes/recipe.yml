@@ -19,9 +19,6 @@ modules:
 
   - type: dnf
     source: ghcr.io/blue-build/modules/dnf:dnf-module
-    repos:
-      copr:
-        - pgdev/ghostty
     group-install:
       packages:
         - xfce-desktop
@@ -30,8 +27,6 @@ modules:
         - xfce4-eyes-plugin
         - xfce4-docklike-plugin
         - xfdashboard
-        - ghostty
-        - orage
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
