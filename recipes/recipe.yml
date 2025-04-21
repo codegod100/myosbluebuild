@@ -29,7 +29,8 @@ modules:
         - xfdashboard
         - pop-icon-theme
         - distrobox
-        - https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64
+        - "https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64"
+        - ark
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
