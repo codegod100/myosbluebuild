@@ -29,8 +29,9 @@ modules:
         - xfdashboard
         - pop-icon-theme
         - distrobox
-        - "https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64"
         - ark
+        - gnome-software
+        - "https://pub-0fc7238d1c964f2da88fd308330e7c7c.r2.dev/code.rpm"
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
